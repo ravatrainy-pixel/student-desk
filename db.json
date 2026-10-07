@@ -1,0 +1,144 @@
+{
+  "subjects": [
+    {
+      "id": 1,
+      "code": "CE401",
+      "name": "Computer Networks",
+      "faculty": "Prof. Sharma",
+      "credits": 4,
+      "type": "Theory",
+      "day": "Monday",
+      "time": "09:00 - 10:00",
+      "room": "Room 204",
+      "semester": 7
+    },
+    {
+      "id": 2,
+      "code": "CE402",
+      "name": "Database Management",
+      "faculty": "Prof. Patel",
+      "credits": 4,
+      "type": "Theory",
+      "day": "Monday",
+      "time": "11:00 - 12:00",
+      "room": "Lab 3",
+      "semester": 7
+    },
+    {
+      "id": 3,
+      "code": "CE403",
+      "name": "Artificial Intelligence",
+      "faculty": "Prof. Mehta",
+      "credits": 4,
+      "type": "Theory",
+      "day": "Tuesday",
+      "time": "10:00 - 11:00",
+      "room": "Room 101",
+      "semester": 7
+    },
+    {
+      "id": 4,
+      "code": "CE404",
+      "name": "Software Engineering",
+      "faculty": "Prof. Desai",
+      "credits": 3,
+      "type": "Theory",
+      "day": "Wednesday",
+      "time": "09:00 - 10:00",
+      "room": "Room 205",
+      "semester": 7
+    },
+    {
+      "id": 5,
+      "code": "CE405",
+      "name": "Compiler Design",
+      "faculty": "Prof. Joshi",
+      "credits": 3,
+      "type": "Theory",
+      "day": "Friday",
+      "time": "14:00 - 15:00",
+      "room": "Room 103",
+      "semester": 7
+    },
+    {
+      "id": 6,
+      "code": "CE406",
+      "name": "Web Development",
+      "faculty": "Prof. Shah",
+      "credits": 4,
+      "type": "Practical",
+      "day": "Thursday",
+      "time": "11:00 - 13:00",
+      "room": "Lab 2",
+      "semester": 7
+    }
+  ],
+  "schedules": [
+    {
+      "id": 1,
+      "subjectId": 1,
+      "day": "Monday",
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "faculty": "Prof. Sharma",
+      "room": "Room 204",
+      "type": "Theory",
+      "semester": 7
+    },
+    {
+      "id": 2,
+      "subjectId": 2,
+      "day": "Monday",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "faculty": "Prof. Patel",
+      "room": "Lab 3",
+      "type": "Theory",
+      "semester": 7
+    },
+    {
+      "id": 3,
+      "subjectId": 3,
+      "day": "Tuesday",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "faculty": "Prof. Mehta",
+      "room": "Room 101",
+      "type": "Theory",
+      "semester": 7
+    },
+    {
+      "id": 4,
+      "subjectId": 4,
+      "day": "Wednesday",
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "faculty": "Prof. Desai",
+      "room": "Room 205",
+      "type": "Theory",
+      "semester": 7
+    },
+    {
+      "id": 5,
+      "subjectId": 5,
+      "day": "Friday",
+      "startTime": "14:00",
+      "endTime": "15:00",
+      "faculty": "Prof. Joshi",
+      "room": "Room 103",
+      "type": "Theory",
+      "semester": 7
+    },
+    {
+      "id": 6,
+      "subjectId": 6,
+      "day": "Thursday",
+      "startTime": "11:00",
+      "endTime": "13:00",
+      "faculty": "Prof. Shah",
+      "room": "Lab 2",
+      "type": "Practical",
+      "semester": 7
+    }
+  ]
+}

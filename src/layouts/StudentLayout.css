@@ -1,0 +1,34 @@
+.student-layout {
+  min-height: 100vh;
+  background: #f5f7fb;
+}
+
+.student-layout-main {
+  min-height: 100vh;
+  margin-left: 260px;
+}
+
+.student-layout-content {
+  min-height: calc(100vh - 72px);
+  padding: 28px;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 900px) {
+  .student-layout-main {
+    margin-left: 0;
+  }
+
+  .student-layout-content {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  .student-layout-content {
+    padding: 16px;
+  }
+}
